@@ -3,12 +3,20 @@ import "react-vertical-timeline-component/style.min.css";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import React from "react";
 
-export default function TimelineElement({ item }) {
-  const { ref, inView } = useInView({
-    triggerOne: true,
-  });
+type ExperienceElementProps = {
+  item: {
+    date: string;
+    icon: React.ReactNode;
+    title: string;
+    location: string;
+    description: string;
+  };
+};
+
+export default function TimelineElement({ item }: ExperienceElementProps) {
+  const { ref, inView } = useInView();
   return (
-    <React.Fragment ref={ref} className="vertical-timeline-element">
+    <div ref={ref} className="vertical-timeline-element">
       <VerticalTimelineElement
         contentStyle={{
           background: "#f3f4f6",
@@ -34,6 +42,6 @@ export default function TimelineElement({ item }) {
           {item.description}
         </p>
       </VerticalTimelineElement>
-    </React.Fragment>
+    </div>
   );
 }
