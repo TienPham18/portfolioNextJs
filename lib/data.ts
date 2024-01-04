@@ -1,9 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaJava, FaReact } from "react-icons/fa";
 import Tishjama from "@/public/Tishjama.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import carHub from "@/public/carHub.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,6 +34,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Internship",
+    location: "Ecomify GmbH Bielefeld, Germany",
+    description:
+      "A week of internship at a company in Bielefeld. I worked on the assigned tasks with Java and MySQL.",
+    icon: React.createElement(FaJava),
+    date: "11.2023",
+  },
+  {
     title: "Graduated Bootcamp",
     location: "Remote - Bielefeld, Germany",
     description:
@@ -62,7 +69,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Hotel Tishjama",
+    title: "Service Booking-App",
     description:
       "I worked on this Capstone Project. The App offers both service manager and guests ease and convenience when it comes to effortlessly booking, creating, deleting or editing services offered by the hotel.",
     tags: [
@@ -75,21 +82,24 @@ export const projectsData = [
       "useSWR",
     ],
     imageUrl: Tishjama,
+    urls: ["https://hotel-tishjama.vercel.app/"],
   },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "CarHub",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: carHub,
+    urls: ["https://car-world-blush.vercel.app"],
+  },
+  {
+    title: "Travel-App",
+    description:
+      "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one apppublic web app for quick analytics on text.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: wordanalyticsImg,
+    urls: ["https://travel-app-rosy-one.vercel.app"],
+  },
 ] as const;
 
 export const skillsData = [
