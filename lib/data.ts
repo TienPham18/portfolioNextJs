@@ -95,7 +95,7 @@ export const projectsData = [
     title: "Travel-App",
     description:
       "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one apppublic web app for quick analytics on text.",
-    tags: ["React", "Next.js", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "Tailwind"],
     imageUrl: TravelApp,
     urls: ["https://travel-app-rosy-one.vercel.app"],
   },
