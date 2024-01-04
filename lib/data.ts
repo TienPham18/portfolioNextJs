@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaJava, FaReact } from "react-icons/fa";
 import Tishjama from "@/public/Tishjama.png";
 import carHub from "@/public/carHub.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import TravelApp from "@/public/TravelApp.png";
 
 export const links = [
   {
@@ -36,8 +36,7 @@ export const experiencesData = [
   {
     title: "Internship",
     location: "Ecomify GmbH Bielefeld, Germany",
-    description:
-      "A week of internship at a company in Bielefeld. I worked on the assigned tasks with Java and MySQL.",
+    description: "I worked on the assigned tasks with Java and MySQL.",
     icon: React.createElement(FaJava),
     date: "11.2023",
   },
@@ -71,7 +70,7 @@ export const projectsData = [
   {
     title: "Service Booking-App",
     description:
-      "I worked on this Capstone Project. The App offers both service manager and guests ease and convenience when it comes to effortlessly booking, creating, deleting or editing services offered by the hotel.",
+      "The App offers both service manager and guests ease and convenience when it comes to effortlessly booking, creating, deleting or editing services offered by the hotel.",
     tags: [
       "React",
       "Next.js",
@@ -97,7 +96,7 @@ export const projectsData = [
     description:
       "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one apppublic web app for quick analytics on text.",
     tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: TravelApp,
     urls: ["https://travel-app-rosy-one.vercel.app"],
   },
 ] as const;
