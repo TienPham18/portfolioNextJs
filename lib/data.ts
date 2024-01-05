@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: "CarHub",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Find, book, and unlock cars near you. CarHub is a car sharing service that allows you to book a car, unlock it, and drive it for as long as you need.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: carHub,
     urls: ["https://car-world-blush.vercel.app"],
