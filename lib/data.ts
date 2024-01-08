@@ -88,7 +88,7 @@ export const projectsData = [
     title: "CarHub",
     description:
       "Find, book, and unlock cars near you. CarHub is a car sharing service that allows you to book a car, unlock it, and drive it for as long as you need.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     imageUrl: carHub,
     urls: ["https://car-world-blush.vercel.app"],
   },
@@ -96,13 +96,14 @@ export const projectsData = [
     title: "Travel-App",
     description:
       "We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one apppublic web app for quick analytics on text.",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     imageUrl: TravelApp,
     urls: ["https://travel-app-rosy-one.vercel.app"],
   },
   {
     title: "Personal Portfolio",
-    description: "A personal Portfolio to show all the projects has been done.",
+    description:
+      "A personal Portfolio to show all the projects have been done.",
     tags: [
       "Next.js",
       "TypeScript",
