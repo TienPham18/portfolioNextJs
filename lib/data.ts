@@ -4,6 +4,7 @@ import { FaJava, FaReact } from "react-icons/fa";
 import Tishjama from "@/public/Tishjama.png";
 import carHub from "@/public/carHub.png";
 import TravelApp from "@/public/TravelApp.png";
+import portfolio from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -34,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Internship",
+    title: "Java Internship",
     location: "Ecomify GmbH Bielefeld, Germany",
     description: "I worked on the assigned tasks with Java and MySQL.",
     icon: React.createElement(FaJava),
@@ -98,6 +99,20 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Tailwind"],
     imageUrl: TravelApp,
     urls: ["https://travel-app-rosy-one.vercel.app"],
+  },
+  {
+    title: "Personal Portfolio",
+    description: "A personal Portfolio to show all the projects has been done.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Context API",
+      "React Hooks",
+    ],
+    imageUrl: portfolio,
+    urls: ["https://portfolio-next-js-tienpham18.vercel.app"],
   },
 ] as const;
 
