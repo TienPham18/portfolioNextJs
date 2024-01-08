@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Internship",
+    title: "Java Internship",
     location: "Ecomify GmbH Bielefeld, Germany",
     description: "I worked on the assigned tasks with Java and MySQL.",
     icon: React.createElement(FaJava),
