@@ -103,7 +103,14 @@ export const projectsData = [
   {
     title: "Personal Portfolio",
     description: "A personal Portfolio to show all the projects has been done.",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Context API",
+      "React Hooks",
+    ],
     imageUrl: portfolio,
     urls: ["https://portfolio-next-js-tienpham18.vercel.app"],
   },
