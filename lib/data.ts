@@ -83,6 +83,7 @@ export const projectsData = [
     ],
     imageUrl: Tishjama,
     urls: ["https://hotel-tishjama.vercel.app/"],
+    repos: ["https://github.com/TienPham18/hotel-tishjama"],
   },
   {
     title: "CarHub",
@@ -91,6 +92,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     imageUrl: carHub,
     urls: ["https://car-world-blush.vercel.app"],
+    repos: ["https://github.com/TienPham18/Car_World"],
   },
   {
     title: "Travel-App",
@@ -99,6 +101,7 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     imageUrl: TravelApp,
     urls: ["https://travel-app-rosy-one.vercel.app"],
+    repos: ["https://github.com/TienPham18/Travel-app"],
   },
   {
     title: "Personal Portfolio",
@@ -114,6 +117,7 @@ export const projectsData = [
     ],
     imageUrl: portfolio,
     urls: ["https://portfolio-next-js-tienpham18.vercel.app"],
+    repos: ["https://github.com/TienPham18/portfolioNextJs"],
   },
 ] as const;
 
