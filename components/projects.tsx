@@ -70,7 +70,7 @@ function Project({
               key={index}
               target="_blank"
               className="relative group2 bg-black/[0.7] text-white text-xs px-4 py-2 mt-2 mb-6 max-w-[11rem] flex items-center justify-center gap-2 rounded-full
-          outline-none focus:scale-110 group-hover:scale-110 group-hover:bg-[#6D9773] active:scale-80 transition"
+          outline-none focus:scale-110 group-hover:scale-110 group-hover:bg-[#FC8B0D] active:scale-80 transition"
             >
               Visit Repos {""}
               <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
