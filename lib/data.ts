@@ -94,7 +94,7 @@ export const projectsData = [
   {
     title: "Service Booking-App",
     description:
-      "The App offers both service manager and guests ease and convenience when it comes to effortlessly booking, creating, deleting or editing services offered by the hotel.",
+      "Login Data as Service manager (Email: service-manager@hotel-tishjama.com Pass: 1234) to edit the service. As Guest (Email: guest1@home.com Pass: 101) to book the service",
     tags: [
       "React",
       "Next.js",
