@@ -36,7 +36,14 @@ export default function Projects() {
 
 type ProjectProps = (typeof projectsData)[number];
 
-function Project({ title, description, tags, imageUrl, urls }: ProjectProps) {
+function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  urls,
+  repos,
+}: ProjectProps) {
   return (
     <section className="group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[25rem] sm:mb-8 last:mb- even:pl-8 hover:bg-gray-200 transition">
       <div className="py-4 px-7 pb-7 sm:pl-15 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col items-center justify-start h-full">
@@ -44,16 +51,28 @@ function Project({ title, description, tags, imageUrl, urls }: ProjectProps) {
         <p className="mt-2 font-serif leading-relaxed text-gray-700">
           {description}
         </p>
-        <div className="px-4 flex items-center justify-center gap-2 mt-4">
+        <div className="px-4 flex items-center justify-center gap-4 mt-4">
           {urls.map((url, index) => (
             <Link
               href={url}
               key={index}
               target="_blank"
-              className="relative group2 bg-black/[0.7] text-white px-4 py-2 mt-2 mb-6 max-w-[11rem] flex items-center justify-center gap-2 rounded-full
+              className="relative group2 bg-black/[0.7] text-white text-xs px-4 py-2 mt-2 mb-6 max-w-[11rem] flex items-center justify-center gap-2 rounded-full
           outline-none focus:scale-110 group-hover:scale-110 group-hover:bg-[#6D9773] active:scale-80 transition"
             >
               Visit App {""}
+              <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
+            </Link>
+          ))}
+          {repos.map((repo, index) => (
+            <Link
+              href={repo}
+              key={index}
+              target="_blank"
+              className="relative group2 bg-black/[0.7] text-white text-xs px-4 py-2 mt-2 mb-6 max-w-[11rem] flex items-center justify-center gap-2 rounded-full
+          outline-none focus:scale-110 group-hover:scale-110 group-hover:bg-[#6D9773] active:scale-80 transition"
+            >
+              Visit Repos {""}
               <BsArrowRight className="opacity-70 group-hover:translate-x-3 transition" />
             </Link>
           ))}
