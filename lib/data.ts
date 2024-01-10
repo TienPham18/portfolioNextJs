@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaJava, FaReact } from "react-icons/fa";
+import { FaJava, FaPython, FaReact } from "react-icons/fa";
 import Tishjama from "@/public/Tishjama.png";
 import carHub from "@/public/carHub.png";
 import TravelApp from "@/public/TravelApp.png";
@@ -34,6 +34,29 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  // {
+  //   title: "Java Developer - Oracle Certified Professional, Java SE Programmer",
+  //   location: "ComCave.College GmbH Bielefeld, Germany",
+  //   description:
+  //     "I am certified as an Oracle Certified Associate, Java SE 8 Programmer.",
+  //   icon: React.createElement(FaJava),
+  //   date: "06-08.2024",
+  // },
+  // {
+  //   title: "Java Developer - Oracle Certified Associate, Java SE Programmer",
+  //   location: "ComCave.College GmbH Bielefeld, Germany",
+  //   description:
+  //     "I am certified as an Oracle Certified Associate, Java SE 8 Programmer.",
+  //   icon: React.createElement(FaJava),
+  //   date: "03-05.2024",
+  // },
+  // {
+  //   title: "Python-Developer PCEP-certified",
+  //   location: "ComCave.College GmbH Bielefeld, Germany",
+  //   description: "I got the Python Programmer for PCEP certification.",
+  //   icon: React.createElement(FaPython),
+  //   date: "01-02.2024",
+  // },
   {
     title: "Java Internship",
     location: "Ecomify GmbH Bielefeld, Germany",
@@ -42,7 +65,7 @@ export const experiencesData = [
     date: "11.2023",
   },
   {
-    title: "Graduated Bootcamp",
+    title: "Graduated Bootcamp | Neuefische GmbH - Web Development",
     location: "Remote - Bielefeld, Germany",
     description:
       "I graduated of intensive studying at Bootcamp. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
