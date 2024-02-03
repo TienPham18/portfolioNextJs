@@ -50,13 +50,13 @@ export const experiencesData = [
   //   icon: React.createElement(FaJava),
   //   date: "03-05.2024",
   // },
-  // {
-  //   title: "Python-Developer PCEP-certified",
-  //   location: "ComCave.College GmbH Bielefeld, Germany",
-  //   description: "I got the Python Programmer for PCEP certification.",
-  //   icon: React.createElement(FaPython),
-  //   date: "01-02.2024",
-  // },
+  {
+    title: "Python-Developer inkl. PCEP-certified",
+    location: "ComCave.College GmbH Bielefeld, Germany",
+    description: "Python Cerified Entry-Level Python Programmer-Zertifikat",
+    icon: React.createElement(FaPython),
+    date: "01.2024",
+  },
   {
     title: "Java Internship",
     location: "Ecomify GmbH Bielefeld, Germany",
