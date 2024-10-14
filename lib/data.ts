@@ -34,28 +34,28 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Java Developer - Oracle Certified Professional, Java SE Programmer",
-  //   location: "ComCave.College GmbH Bielefeld, Germany",
-  //   description:
-  //     "I am certified as an Oracle Certified Associate, Java SE 8 Programmer.",
-  //   icon: React.createElement(FaJava),
-  //   date: "06-08.2024",
-  // },
-  // {
-  //   title: "Java Developer - Oracle Certified Associate, Java SE Programmer",
-  //   location: "ComCave.College GmbH Bielefeld, Germany",
-  //   description:
-  //     "I am certified as an Oracle Certified Associate, Java SE 8 Programmer.",
-  //   icon: React.createElement(FaJava),
-  //   date: "03-05.2024",
-  // },
+  {
+    title: "Java Developer - Oracle Certified Professional",
+    location: "ComCave.College GmbH Bielefeld, Germany",
+    description:
+      "I am certified as an Oracle Certified Proffessional, Java SE 8 Programmer II.",
+    icon: React.createElement(FaJava),
+    date: "06-09.2024",
+  },
+  {
+    title: "Java Developer - Oracle Certified Associate",
+    location: "ComCave.College GmbH Bielefeld, Germany",
+    description:
+      "I am certified as an Oracle Certified Associate, Java SE 8 Programmer I.",
+    icon: React.createElement(FaJava),
+    date: "03-06.2024",
+  },
   {
     title: "Python-Developer inkl. PCEP-certified",
     location: "ComCave.College GmbH Bielefeld, Germany",
     description: "Python Cerified Entry-Level Python Programmer-Zertifikat",
     icon: React.createElement(FaPython),
-    date: "01.2024",
+    date: "01-02.2024",
   },
   {
     title: "Java Internship",
