@@ -145,6 +145,14 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Spring Boot",
+  "Docker",
+  "Kubernates",
+  "MySQL",
+  "MariaDB",
+  "Apache DerbyDB",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
@@ -159,11 +167,5 @@ export const skillsData = [
   "Agile methods",
   "REST API",
   "Cloudinary",
-  "Java",
-  "Spring Boot",
-  "Docker",
-  "Kubernates",
-  "MySQL",
   "Framer Motion",
-  "Python",
 ] as const;
