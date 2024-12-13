@@ -5,23 +5,29 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useInView } from "react-intersection-observer";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects");
-  // const { ref, inView } = useInView({
-  //   threshold: 0.5,
-  // });
-  // const { setActiveSection } = useActiveSectionContext();
+  //const { ref, inView } = useInView({
+  //  threshold: 0.8,
+  //});
+  //const { setActiveSection } = useActiveSectionContext();
+  //
+  //useEffect(() => {
+  //  if (inView) {
+  //    setActiveSection("Projects");
+  //  }
+  //}, [inView, setActiveSection]);
 
-  // useEffect(() => {
-  //   if (inView) {
-  //     setActiveSection("Projects");
-  //   }
-  // }, [inView, setActiveSection]);
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 text-center">
+    <section
+      ref={ref}
+      id="projects"
+      className="mb-28 max-w-[100rem] text-center scroll-mt-28"
+    >
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
