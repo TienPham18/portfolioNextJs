@@ -34,7 +34,7 @@ export default function About() {
       <p>
         After graduating with a degree in{" "}
         <span className="font-medium">Nature Science</span>, I decided to pursue
-        my passion for programming. I enrolled in a coding bootcamp at{" "}
+        my passion for programming. I enrolled in a coding Bootcamp at{" "}
         <Link
           href="https://www.neuefische.de/en"
           target="_blank"
@@ -47,12 +47,11 @@ export default function About() {
         problem-solving aspect. I love the feeling of finally figuring out a
         solution to a problem. My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Java, Spring, TypeScript, React and MySQL
         </span>
-        . I am also familiar with TypeScript. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am always looking to learn new technologies. I am currently looking
+        for a <span className="font-medium">full-time position</span> as a
+        software developer.
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
