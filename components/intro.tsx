@@ -77,8 +77,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Tien Pham.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span>. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Java Application and React (Next.js)</span>
+        building <span className="italic">Website & apps</span>. My focus is{" "}
+        <span className="underline">Java and Spring Boot </span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"

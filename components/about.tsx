@@ -42,16 +42,28 @@ export default function About() {
         >
           neue Fische GmbH{" "}
         </Link>
-        and learned <span className="font-medium">web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        and{" "}
+        <Link
+          href="https://www.comcave.de/"
+          target="_blank"
+          className="underline text-gray-500"
+        >
+          ComCave College GmbH{" "}
+        </Link>
+        <span className="font-medium">
+          to learn about "Web/Software development"
+        </span>
+        <span className="italic">. My favorite part of programming</span> is the
         problem-solving aspect. I love the feeling of finally figuring out a
         solution to a problem. My core stack is{" "}
         <span className="font-medium">
-          Java, Spring, TypeScript, React and MySQL
+          Java, Spring Boot, TypeScript, React and MySQL
         </span>
-        I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        software developer.
+        . I am always looking to learn new technologies. I am currently looking
+        for a{" "}
+        <span className="font-medium">
+          full-time position as a software developer.
+        </span>
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
