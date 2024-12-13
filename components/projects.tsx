@@ -1,16 +1,14 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import SectionHeading from "./SectionHeading";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import { useInView } from "react-intersection-observer";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects");
+  const { ref } = useSectionInView("Projects", 0.1);
   //const { ref, inView } = useInView({
   //  threshold: 0.8,
   //});
@@ -23,11 +21,7 @@ export default function Projects() {
   //}, [inView, setActiveSection]);
 
   return (
-    <section
-      ref={ref}
-      id="projects"
-      className="mb-28 max-w-[100rem] text-center scroll-mt-28"
-    >
+    <section ref={ref} id="projects" className="text-center scroll-mt-28">
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
