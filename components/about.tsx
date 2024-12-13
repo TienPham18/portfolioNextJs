@@ -33,9 +33,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p>
         After graduating with a degree in{" "}
-        <span className="font-medium">Wood Technology and Biology</span>, I
-        decided to pursue my passion for programming. I enrolled in a coding
-        bootcamp at{" "}
+        <span className="font-medium">Nature Science</span>, I decided to pursue
+        my passion for programming. I enrolled in a coding bootcamp at{" "}
         <Link
           href="https://www.neuefische.de/en"
           target="_blank"
@@ -58,8 +57,7 @@ export default function About() {
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies or hitting the gym. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">Java and MySQL</span>.
+        <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );
